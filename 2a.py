@@ -9,8 +9,12 @@ Copy the ouput from tcpdump and response to result file
 
 """
 
+
+### usage: $ python sa.py <valid ip address>
+
 import sys
-from scapy.all import sr1,IP,ICMP
+from scapy.all import *
+import socket
 
 
 def main():
