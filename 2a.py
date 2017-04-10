@@ -13,7 +13,11 @@ Copy the ouput from tcpdump and response to result file
 ### usage: $ python sa.py <valid ip address>
 
 import sys
+<<<<<<< HEAD
 from scapy.all import *
+=======
+from scapy.all import sr1,IP,ICMP
+>>>>>>> origin/master
 import socket
 
 
@@ -27,7 +31,7 @@ def main():
 
 
     try:
-        p = sr1(IP(dst=ip) / ICMP() / Raw(load="TEST"))
+        p = sr1(IP(dst=ip) / ICMP() )
     except socket.error:
         print "Can't open socket maybe you are not root?"
         exit(0)

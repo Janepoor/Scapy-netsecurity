@@ -1,0 +1,15 @@
+15:50:28.987497 IP (tos 0x0, ttl 64, id 1, offset 0, flags [none], proto ICMP (1), length 32)
+    10.0.2.15 > 4.20.185.35.bc.googleusercontent.com: ICMP echo request, id 0, seq 0, length 12
+	0x0000:  5254 0012 3502 0800 27e7 2b16 0800 4500  RT..5...'.+...E.
+	0x0010:  0020 0001 0000 4001 3711 0a00 020f 23b9  ......@.7.....#.
+	0x0020:  1404 0800 3026 0000 0000 5465 7374       ....0&....Test
+
+
+15:50:29.010119 IP (tos 0x0, ttl 63, id 23119, offset 0, flags [none], proto ICMP (1), length 32)
+    4.20.185.35.bc.googleusercontent.com > 10.0.2.15: ICMP echo reply, id 0, seq 0, length 12
+	0x0000:  0800 27e7 2b16 5254 0012 3502 0800 4500  ..'.+.RT..5...E.
+	0x0010:  0020 5a4f 0000 3f01 ddc2 23b9 1404 0a00  ..ZO..?...#.....
+	0x0020:  020f 0000 3826 0000 0000 5465 7374 0000  ....8&....Test..
+	0x0030:  0000 0000 0000 0000 0000 0000 
+
+
