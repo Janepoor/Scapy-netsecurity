@@ -1,0 +1,13 @@
+22:18:18.365065 IP (tos 0x0, ttl 64, id 52916, offset 0, flags [none], proto TCP (6), length 44)
+    projects.sourceforge.net.http > 10.0.2.15.40682: Flags [S.], cksum 0x3b8a (correct), seq 4122816001, ack 1, win 65535, options [mss 1460], length 0
+	0x0000:  0800 27e7 2b16 5254 0012 3502 0800 4500  ..'.+.RT..5...E.
+	0x0010:  002c ceb4 0000 4006 1286 d822 b560 0a00  .,....@....".`..
+	0x0020:  020f 0050 9eea f5bd 2e01 0000 0001 6012  ...P..........`.
+	0x0030:  ffff 3b8a 0000 0204 05b4 0000   
+	         ..;.........
+22:18:18.365085 IP (tos 0x0, ttl 64, id 41207, offset 0, flags [DF], proto TCP (6), length 40)
+    10.0.2.15.40682 > projects.sourceforge.net.http: Flags [R], cksum 0x7713 (correct), seq 1, win 0, length 0
+	0x0000:  5254 0012 3502 0800 27e7 2b16 0800 4500  RT..5...'.+...E.
+	0x0010:  0028 a0f7 4000 4006 0047 0a00 020f d822  .(..@.@..G....."
+	0x0020:  b560 9eea 0050 0000 0001 0000 0000 5004  .`...P........P.
+	0x0030:  0000 7713 0000  
