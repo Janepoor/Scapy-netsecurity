@@ -1,4 +1,3 @@
-
 import string
 from scapy.all import *
 import sys
@@ -11,9 +10,9 @@ def loop():
         print "E"
 
 
-    loopbackip="127.0.0.1"ip
+    loopbackip="127.0.0.1"
     for i in range(3000, 3021):
-        send(IP(dst=loopback) / TCP(dport=i))
+        send(IP(dst=loopbackip) / TCP(dport=i))
 
     """
     Generate 5 packets and then send them
