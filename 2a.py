@@ -13,11 +13,7 @@ Copy the ouput from tcpdump and response to result file
 ### usage: $ python sa.py <valid ip address>
 
 import sys
-<<<<<<< HEAD
 from scapy.all import *
-=======
-from scapy.all import sr1,IP,ICMP
->>>>>>> origin/master
 import socket
 
 
